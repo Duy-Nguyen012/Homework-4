@@ -1,0 +1,3 @@
+There are two uses of inheritance in the program
+1. Reusable codes: We can able to create a new class that reuses code by inheriting the attributes and methods of the based class. 
+2. Polymorphism: It allows to write code that can work for different classes in a uniform way. In addition, by inheriting from the common base class, we can able to create objects with the shared interface.

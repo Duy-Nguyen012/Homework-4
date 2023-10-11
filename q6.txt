@@ -1,0 +1,2 @@
+1. increment_int_a does not change the variable a. In this case, a is assigned as the integer, but increment_int_a receives it as a parameter. That any change in someval inside the function will not affect a variable because integers are immutable.
+2.  It will not change the value of b after the function call. It ran into the issue that there is an incorrect syntax. It still won’t affect the value b itself; only the value associated with the key 32 is modified.

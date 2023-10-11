@@ -9,10 +9,4 @@ def allcaps(original_function):
     return wrapper
 
 
-if __name__ == "__main__":
-    @allcaps
-    def greeting():
-        return "hello world"
-
-    print(greeting())  
 

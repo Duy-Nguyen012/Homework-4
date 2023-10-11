@@ -8,10 +8,4 @@ def timestamp(original_function):
         return result
     return wrapper
 
-# Example usage:
-if __name__ == "__main__":
-    @timestamp
-    def log_message(message):
-        print(message)
 
-    log_message("hi")

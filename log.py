@@ -8,6 +8,10 @@ def timestamp(func):
         print(f"Decorated Content: {result}")
         return result
     return wrapper
+@timestamp
+def hi(): 
+    print('hi')
+
 
 
 

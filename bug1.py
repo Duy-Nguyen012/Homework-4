@@ -8,7 +8,7 @@ class Circle():
     def __init__(x, size):
         super().__init__(x, y, size)
 
-    def shape(self)
+    def shape(self):
         return "This is a circle"
 
     def draw(self):

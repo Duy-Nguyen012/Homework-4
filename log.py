@@ -1,4 +1,4 @@
-import datetime
+import time
 
 def timestamp(func):
     def wrapper(*args, **kwargs):

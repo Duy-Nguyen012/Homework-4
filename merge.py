@@ -1,4 +1,4 @@
-def merge(list1, list2):
+def merge_list(list1, list2):
     i , j = 0 
     merged = [] 
     while i < len(list1) and j < len(list2): 

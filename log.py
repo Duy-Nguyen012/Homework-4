@@ -1,11 +1,15 @@
-import datetime
+import time
 
-def timestamp(original_function):
+def timestamp(func):
     def wrapper(*args, **kwargs):
-        current_time = datetime.datetime.now()
+        current_time = time.ctime()
         print(f"Timestamp: {current_time}")
-        result = original_function(*args, **kwargs)
+        result = func(*args, **kwargs)
+        print(f"Decorated Content: {result}")
         return result
     return wrapper
+
+
+
 
 
